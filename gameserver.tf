@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "zerotier_instance" {
-  ami           = "ami-019d0de809cf7fd35"
+  ami           = "ami-0d9fa9def05704a02"
   instance_type = "g4dn.2xlarge"
   key_name      = "Hurren"
   subnet_id     = "subnet-0f287a6780b92e68d"
